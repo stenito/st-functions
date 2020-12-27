@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/stenito/st-functions/issues"
   },
-  "homepage": "https://github.com/stenito/st-functions#readme"
+  "homepage": "https://github.com/stenito/st-functions#readme",
+  "dependencies": {
+    "my-package": "0.0.0"
+  }
 }
