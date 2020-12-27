@@ -1,3 +1,6 @@
+// Functions to get the type of javascript 'items'
+
+
 // returns the type of any javascript 'item' as a string
 
 function getTypeOf(item) {
@@ -9,5 +12,6 @@ function getTypeOf(item) {
   var typeString = Object.prototype.toString.call(item);
   return typeString.slice(typeString.indexOf(" ") + 1, -1);
 }
+
 
 export { getTypeOf };
